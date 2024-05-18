@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b8cc0c6cfdecaff3e29fa17e56d1b14",
+    "content-hash": "92e9b6b0b2b24e0a47127abda9499d10",
     "packages": [
         {
             "name": "beyondcode/laravel-websockets",
@@ -4305,29 +4305,30 @@
         },
         {
             "name": "nwidart/laravel-modules",
-            "version": "10.0.6",
+            "version": "v11.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nWidart/laravel-modules.git",
-                "reference": "a6f2c8b53ae7945ef41d296735e963cee885ebde"
+                "reference": "4522002fc94cf4a1555337394f7268dd14651806"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nWidart/laravel-modules/zipball/a6f2c8b53ae7945ef41d296735e963cee885ebde",
-                "reference": "a6f2c8b53ae7945ef41d296735e963cee885ebde",
+                "url": "https://api.github.com/repos/nWidart/laravel-modules/zipball/4522002fc94cf4a1555337394f7268dd14651806",
+                "reference": "4522002fc94cf4a1555337394f7268dd14651806",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=8.1"
+                "php": ">=8.2",
+                "wikimedia/composer-merge-plugin": "^2.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.6",
-                "laravel/framework": "^10.41",
-                "mockery/mockery": "^1.5",
-                "orchestra/testbench": "^8.0",
+                "friendsofphp/php-cs-fixer": "^v3.52",
+                "laravel/framework": "^v11.0",
+                "mockery/mockery": "^1.6",
+                "orchestra/testbench": "^v9.0",
                 "phpstan/phpstan": "^1.4",
-                "phpunit/phpunit": "^10.0",
+                "phpunit/phpunit": "^11.0",
                 "spatie/phpunit-snapshot-assertions": "^5.0"
             },
             "type": "library",
@@ -4341,7 +4342,7 @@
                     }
                 },
                 "branch-alias": {
-                    "dev-master": "10.0-dev"
+                    "dev-master": "11.0-dev"
                 }
             },
             "autoload": {
@@ -4374,7 +4375,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nWidart/laravel-modules/issues",
-                "source": "https://github.com/nWidart/laravel-modules/tree/10.0.6"
+                "source": "https://github.com/nWidart/laravel-modules/tree/v11.0.10"
             },
             "funding": [
                 {
@@ -4386,7 +4387,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-28T10:04:15+00:00"
+            "time": "2024-05-05T19:07:30+00:00"
         },
         {
             "name": "nyholm/psr7",
